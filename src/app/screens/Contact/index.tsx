@@ -73,7 +73,7 @@ export default function Contact() {
                         value={cicle}
                         onChange={(e) => setCicle(e.target.value)}
                         className="bg-gray-200 p-2 rounded-md w-3/4">
-                        <option value="" disabled selected>
+                        <option value="" disabled>
                             Selecione o Ciclo
                         </option>
                         <option value="1">1º Ano Fundamental</option>
