@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import danmatema_contact from "@/assets/danmatema_contact.png";
 import { useState } from "react";
 import { useAtom } from "jotai";
 import toastContext from "@/context/ToastAtom";
