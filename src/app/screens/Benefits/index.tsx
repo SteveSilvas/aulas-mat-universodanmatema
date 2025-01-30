@@ -4,7 +4,7 @@ import React from 'react';
 
 const Benefits: React.FC = () => {
     return (
-        <section id="beneficios" className="text-center flex flex-col items-center px-6 bg-gray-100">
+        <section id="beneficios" className="text-center flex flex-col items-center p-6 bg-gray-100">
             <h2 className="text-2xl font-bold text-blue_d  my-6">Benefícios dos Planos</h2>
             <ul className="w-full space-y-2 text-lg flex flex-col items-start md:w-[50%] bg-white shadow-lg rounded-lg p-4">
                 <li>✅ Aulas Personalizadas</li>
