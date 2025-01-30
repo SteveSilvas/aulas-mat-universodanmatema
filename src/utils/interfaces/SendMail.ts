@@ -8,4 +8,5 @@ export interface IMailSendMailData{
     fromEmail: string;
     phone: string;
     message: string;
+    cicle: string;
 }

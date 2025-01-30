@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import { Container } from './styles';
-
 const Benefits: React.FC = () => {
     return (
         <section id="beneficios" className="text-center flex flex-col items-center p-6 bg-gray-100">
