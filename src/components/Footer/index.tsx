@@ -1,5 +1,6 @@
 import { RiFacebookFill, RiInstagramFill, RiLinkedinFill, RiYoutubeFill, RiMailFill, RiPhoneFill } from "react-icons/ri";
 import Link from "next/link";
+import CompanyLink from "../CompanyLink";
 export default function Footer() {
     return (
       <footer className="bg-blue_d text-white py-6 mt-auto">
@@ -40,6 +41,7 @@ export default function Footer() {
         <div className="text-center mt-6 text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Danilo Souza. Todos os direitos reservados.</p>
         </div>
+        <CompanyLink />
       </footer>
     );
   }
