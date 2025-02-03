@@ -1,13 +1,14 @@
 import Link from "next/link";
+import { useState } from "react";
 import { GrClose, GrMenu } from "react-icons/gr";
 
-export interface INavbarProps {
-    isOpen: boolean;
-    toggleSidebar: () => void;
-    setIsOpen: (value: boolean) => void;
-}
+const Navbar: React.FC = () => {
+    const [isOpen, setIsOpen] = useState(false);
 
-const Navbar: React.FC<INavbarProps> = ({ isOpen, toggleSidebar, setIsOpen }) => {
+    const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <div
             className={`${isOpen ? "h-screen" : "h-auto"} md:h-auto top-0 left-0 bg-white text-black flex flex-col md:flex-row align-center items-center p-4`}
